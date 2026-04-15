@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("PragyanAI Content Generator", layout="wide")
 st.title("SDP_AI– Content Generator")
-st.image("SDP_AI_Transperent.jpg.jpeg")
+st.image("SDP_AI_Transparent.jpeg")
 
 # Get GROQ API Key
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
